@@ -1,0 +1,22 @@
+.footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 28px 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-left__copyrights-elements-icon {
+    width: 20px;
+    height: 20px;
+}
