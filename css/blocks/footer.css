@@ -6,17 +6,37 @@
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-left {
     display: flex;
+    align-items: center;
 }
 
-.footer-right {
+
+.footer-left__copyrights-elements {
     display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 166px;
 }
 
 .footer-left__copyrights-elements-icon {
+    /* display: block; */
     width: 20px;
     height: 20px;
+}
+
+.footer-left__copyrights-elements-text {
+    font-family: "Play", "Aria", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.footer-right {
+    display: flex;
 }
