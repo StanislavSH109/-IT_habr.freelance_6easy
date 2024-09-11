@@ -1,1 +1,42 @@
-.
+.form-message {
+    position: relative;
+}
+
+.form-message__input {
+    width: 540px;
+    padding: 16px 24px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 8px;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+.form-message__input::placeholder {
+    font-family: "Play", "Aria", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.form-message__button {
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -7px;
+    right: 30px;
+    transform: translateY(50%);
+}
+
+.form-message__button-icon {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    
+}

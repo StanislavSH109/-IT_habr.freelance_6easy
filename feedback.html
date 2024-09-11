@@ -22,10 +22,10 @@
               <p class="hero__text">Поделись болью, вопросом или расскажи миру о том, кто из коллег съел твой йогурт</p>
             </div>
             <form action="#" class="form-message">
-              <input type="text" name="message-text" id="message-text" placeholder="Твоё сообщение ...">
-              <button type="submit">
-                <svg>
-                  <use xlink:href=""></use>
+              <input class="form-message__input" type="text" name="message-text" id="message-text" placeholder="Твоё сообщение ...">
+              <button class="form-message__button" type="submit">
+                <svg class="form-message__button-icon" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="/images/sprite.svg#telegram-icon"></use>
                 </svg>
               </button>
             </form>
@@ -33,6 +33,30 @@
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer-left">
+            <a href="#" class="footer-left__logo-link">
+              <img class="footer-left__logo-image" src="images/logo.png" alt="logo">
+            </a>
+            <div class="footer-left__copyrights-elements">
+              <svg>
+                <use xlink:href="images/sprite.svg#copyright-icon"></use>
+              </svg>
+              <span class="footer-left__copyrights-elements-text">
+                Все права защищены и принадлежат народу
+              </span>
+            </div>
+          </div>
+          <div class="footer-right">
+            <span class="footer-right__reading">
+              Читай подборку по дороге на работу или за чашкой кофе
+            </span>
+            <form class="form-email" action="#" ></form>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
