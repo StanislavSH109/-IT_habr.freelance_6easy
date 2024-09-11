@@ -12,20 +12,19 @@
 .footer-left {
     display: flex;
     align-items: center;
+    gap: 42px;
 }
 
 
 .footer-left__copyrights-elements {
     display: flex;
-    gap: 10px;
+    gap: 4px;
     align-items: center;
-    width: 166px;
 }
 
 .footer-left__copyrights-elements-icon {
-    /* display: block; */
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer-left__copyrights-elements-text {
@@ -34,9 +33,19 @@
     line-height: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
+    width: 140px;
 }
-
 
 .footer-right {
     display: flex;
+}
+
+.footer-right__reading {
+    font-family: "Play", "Aria", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    width: 170px;
+    text-align: right;
 }
