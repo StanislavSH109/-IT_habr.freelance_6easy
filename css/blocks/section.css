@@ -1,13 +1,7 @@
-.section {
-    /* height: 100%; */
-    margin: auto 0;
-}
-
 .section__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin: 0 0 32px 0;
+    min-height: 90vh;
 }
