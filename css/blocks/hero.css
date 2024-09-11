@@ -1,0 +1,28 @@
+.hero__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__content-title {
+    text-transform: uppercase;
+    color: #87F29A;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 84px;
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    margin: 0;
+}
+
+.hero__content-title--it {
+    color: #FFFFFF;
+}
+
+.hero__text {
+    font-family: "Play", "Aria", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    text-align: center;
+}
