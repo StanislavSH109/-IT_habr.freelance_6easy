@@ -1,8 +1,8 @@
-.form-message {
+.form-message__area {
     position: relative;
 }
 
-.form-message__input {
+.form-message__area-input {
     width: 540px;
     padding: 16px 24px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -21,7 +21,7 @@
     color: #FFFFFF;
 }
 
-.form-message__button {
+.form-message__area-button {
     background: transparent;
     width: 24px;
     height: 24px;
@@ -33,7 +33,7 @@
     transform: translateY(50%);
 }
 
-.form-message__button-icon {
+.form-message__area-button-icon {
     width: 24px;
     height: 24px;
     color: #FFFFFF;

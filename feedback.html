@@ -12,24 +12,34 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="visually-hidden">Обратная связь - БЕСIT</h1>
           <div class="section__wrapper">
             <div class="hero">
-              <div class="hero__content">
-                <h2 class="hero__content-title">Бес</h2>
-                <h2 class="hero__content-title hero__content-title--it">It</h2>
-              </div>
+              <h1 class="hero__title">
+                <span class="hero__title-accent">Бес</span>
+                <span class="hero__content-title hero__content-title--it">It</span>
+                </h1>
+            </div>
               <p class="hero__text">Поделись болью, вопросом или расскажи миру о том, кто из коллег съел твой йогурт</p>
             </div>
             <form action="#" class="form-message">
-              <input class="form-message__input" type="text" name="message-text" id="message-text" placeholder="Твоё сообщение ...">
-              <button class="form-message__button" type="submit">
-                <svg class="form-message__button-icon" width="24" height="24" aria-hidden="true">
-                  <use xlink:href="/images/sprite.svg#telegram-icon"></use>
-                </svg>
-              </button>
+              <div class="form-message__area">
+                <textarea class="form-message__area-input" type="text" name="message-text" id="message-text" placeholder="Твоё сообщение ..."></textarea>
+                <button class="form-message__area-button" type="submit">
+                  <svg class="form-message__area-button-icon" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="/images/sprite.svg#telegram-icon"></use>
+                  </svg>
+                </button>
+                
+              </div>
             </form>
-          </div>
+        </div>
+        <div class="smiles">
+          <svg class="smiles-iscon-mascot-devil">
+            <use xlink:href="/images/sprite.svg#devil-mascot" width="130" height="130"></use>
+          </svg>
+          <svg class="smiles-iscon-mascot-engry">
+            <use  xlink:href="/images/sprite.svg#angry-mascot" width="124" height="124"></use>
+          </svg>
         </div>
       </section>
     </main>
