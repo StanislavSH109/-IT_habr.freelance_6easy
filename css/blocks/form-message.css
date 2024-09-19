@@ -1,5 +1,9 @@
 .form-message__area {
     position: relative;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .form-message__area-input {
@@ -11,9 +15,10 @@
     margin: 0;
     display: block;
     position: relative;
+    height: 65px;
 }
 
-.form-message__input::placeholder {
+.form-message__area-input::placeholder {
     font-family: "Play", "Aria", sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -28,9 +33,8 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    top: -7px;
+    top:  0;
     right: 30px;
-    transform: translateY(50%);
 }
 
 .form-message__area-button-icon {
@@ -38,4 +42,5 @@
     height: 24px;
     color: #FFFFFF;
     position: absolute;
+    transform: translateY(50%);
 }
