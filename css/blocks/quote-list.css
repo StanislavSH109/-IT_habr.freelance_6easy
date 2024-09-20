@@ -3,21 +3,45 @@
     list-style: none;
 }
 
+.quote-list__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .quote-list__item {
     font-family: "Play";
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
-    padding: 40px;
+    padding: 20px;
+    text-align: center;
 }
 
 .quote-list__group--brown {
-    padding: 40px;
+    position: absolute;
     background-color: #676A47;
     border-radius: 40px;
+    top: 150px;
+    left: 113px;
+    width: 360px;
 }
 
 .quote-list__group-ponytail {
+    position: absolute;
     width: 32px;
     height: 32px;
+    right: 0;
+    bottom: 0;
+}
+
+.quote-list__group--blue {
+    position: absolute;
+    background-color: #243961;
+    border-radius: 40px;
+    top: 110px;
+    left: 40%;
+    width: 334px;
+    z-index: 10;
+    /* overflow: hidden; */
 }
