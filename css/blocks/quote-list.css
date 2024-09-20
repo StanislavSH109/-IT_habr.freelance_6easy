@@ -10,3 +10,14 @@
     line-height: 24px;
     padding: 40px;
 }
+
+.quote-list__group--brown {
+    padding: 40px;
+    background-color: #676A47;
+    border-radius: 40px;
+}
+
+.quote-list__group-ponytail {
+    width: 32px;
+    height: 32px;
+}
