@@ -38,5 +38,8 @@
     <symbol id="red-ponytail" xmlns="http://www.w3.org/2000/svg">
         <rect width="363" height="112" rx="40" fill="#6A2844"/>
     </symbol>
+    <symbol id="dark-brown-ponytail" xmlns="http://www.w3.org/2000/svg">
+        <rect width="303" height="160" rx="40" fill="#62432C"/>
+    </symbol>
 
 </svg>
