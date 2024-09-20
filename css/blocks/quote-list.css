@@ -72,3 +72,21 @@
     right: 30%;
     width: 363px;
 }
+
+.quote-list__group--purple {
+    background-color: #432858;
+    position: absolute;
+    border-radius: 40px;
+    bottom: 82px;
+    left: 30%;
+    width: 423px;
+}
+
+.quote-list__group--dark-brown {
+    background-color: #62432C;
+    position: absolute;
+    border-radius: 40px;
+    top: 40%;
+    left: 50px;
+    width: 303px;
+}
