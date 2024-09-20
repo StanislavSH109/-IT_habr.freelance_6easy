@@ -10,6 +10,7 @@ body {
   font-family: "Play", "Arial", sans-serif;
   font-weight: 400;
   background: linear-gradient(114.85deg, #181A1D 0%, #1F153C 100%);
+  position: relative;
 }
 
 img {
