@@ -11,11 +11,11 @@
 
 .quote-list__item {
     font-family: "Play";
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     line-height: 24px;
     padding: 20px;
-    text-align: center;
+
 }
 
 .quote-list__group--brown {
@@ -42,8 +42,6 @@
     top: 110px;
     left: 40%;
     width: 334px;
-    z-index: 10;
-    /* overflow: hidden; */
 }
 
 .quote-list__group--violet {
@@ -65,7 +63,7 @@
 }
 
 .quote-list__group--red {
-    background-color: #315C51;
+    background-color: #6A2844;
     position: absolute;
     border-radius: 40px;
     bottom: 62px;
@@ -75,11 +73,12 @@
 
 .quote-list__group--purple {
     background-color: #432858;
-    position: absolute;
+    position: relative;
     border-radius: 40px;
     bottom: 82px;
     left: 20%;
     width: 423px;
+    
 }
 
 .quote-list__group--dark-brown {
@@ -93,16 +92,19 @@
 
 .quote-list__group-icon-mascot {
     position: absolute;
-    width: 130px;
-    height: 130px;
-    right: 50%;
-    top: 5%;
+    width: 150px;
+    height: 150px;
+    left: -100px;
+    top: -50px;
+    z-index: -1;
 }
 
-.quote-list__group-icon-mascot-engry {
+.quote-list__group-icon-mascot-angry {
     position: absolute;
-    width: 124px;
-    height: 124px;
-    right: 50%;
-    bottom: 50px;
+    width: 134px;
+    height: 134px;
+    right: -80px;
+    bottom: 20px;
+    overflow: hidden;
+    z-index: -1;
 }
