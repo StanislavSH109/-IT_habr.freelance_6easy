@@ -29,4 +29,7 @@
     <symbol id="brown-ponytail" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 0L0 31C0 31 12.5 40 32 40C13.5 22 15 0 15 0Z" fill="#676A47"/>
     </symbol>
+    <symbol id="violet-ponytail" xmlns="http://www.w3.org/2000/svg">
+        <rect width="297" height="136" rx="40" fill="#61235F"/>
+    </symbol>
 </svg>

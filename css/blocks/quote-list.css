@@ -45,3 +45,12 @@
     z-index: 10;
     /* overflow: hidden; */
 }
+
+.quote-list__group--violet {
+    position: absolute;
+    background-color: #61235F;
+    border-radius: 40px;
+    top: 110px;
+    right: 75px;
+    width: 334px;
+}
