@@ -1,9 +1,8 @@
 .footer {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 28px 0;
-    position: fixed;
     width: 100%;
-    z-index: 10;
+    flex: 1 1 auto;
 }
 
 .footer__wrapper {
