@@ -1,0 +1,12 @@
+.quote-list {
+    display: flex;
+    list-style: none;
+}
+
+.quote-list__item {
+    font-family: "Play";
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 40px;
+}
