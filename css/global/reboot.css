@@ -11,6 +11,16 @@ body {
   font-weight: 400;
   background: linear-gradient(114.85deg, #181A1D 0%, #1F153C 100%);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
