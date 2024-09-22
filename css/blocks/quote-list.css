@@ -1,6 +1,7 @@
 .quote-list {
     display: flex;
     list-style: none;
+    position: absolute;
 }
 
 .quote-list__group {
@@ -13,6 +14,7 @@
 .quote-list__item {
     position: absolute;
     border-radius: 40px;
+    z-index: 3;
 }
 
 .quote-list__item-text {
@@ -23,11 +25,12 @@
     margin: 0;
 }
 
-.quote-list__group--brown {
+.quote-list__item--brown {
     background-color: #676A47;
     border-radius: 40px;
-    top: 150px;
-    left: 113px;
+    left: -50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
     width: 360px;
 }
 
@@ -39,53 +42,52 @@
     bottom: 0;
 }
 
-.quote-list__group--blue {
+.quote-list__item--blue {
     background-color: #243961;
     border-radius: 40px;
-    top: 20px;
-    left: 50%;
     width: 334px;
+    bottom: 100%;
+    left: 30%;
+    transform: translateY(-100%);
+    z-index: -1;
 }
 
-.quote-list__group--violet {
+.quote-list__item--violet {
     background-color: #61235F;
     border-radius: 40px;
-    top: 110px;
-    right: 75px;
     width: 334px;
+    bottom: 100%;
+    left: 120%;
 }
 
-.quote-list__group--green {
+.quote-list__item--green {
     background-color: #315C51;
     border-radius: 40px;
-    top: 40%;
-    right: 75px;
-    width: 334px;
+    width: 280px;
+    left: 100%;
+    top: 30%;
+    transform: translate(50% , 50%);
 }
 
-.quote-list__group--red {
+.quote-list__item--red {
     background-color: #6A2844;
     border-radius: 40px;
-    bottom: 300px;
-    right: 20%;
+    top: 200%;
+    left: 70%;
     width: 363px;
 }
 
-.quote-list__group--purple {
+.quote-list__item--purple {
     background-color: #432858;
     position: relative;
     border-radius: 40px;
-    bottom: 182px;
-    left: 100%;
     width: 423px;
-    
+    top: 200%;
 }
 
-.quote-list__group--dark-brown {
+.quote-list__item--dark-brown {
     background-color: #62432C;
     border-radius: 40px;
-    top: 40%;
-    left: 40px;
     width: 303px;
 }
 
@@ -93,17 +95,15 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    left: -110px;
-    top: -20px;
-    z-index: -1;
+    z-index: -10;
+    right: 90%;
 }
 
 .quote-list__group-icon-mascot-angry {
     position: absolute;
     width: 134px;
     height: 134px;
-    right: -80px;
-    bottom: 20px;
     overflow: hidden;
-    z-index: -1;
+    z-index: 1;
+    left: 0;
 }
