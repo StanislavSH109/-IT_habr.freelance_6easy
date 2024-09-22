@@ -1,4 +1,8 @@
-.section__wrapper {
+.main-section {
+    position: relative;
+}
+
+.main-section__wrapper {
     display: flex;
     position: relative;
     flex-direction: column;

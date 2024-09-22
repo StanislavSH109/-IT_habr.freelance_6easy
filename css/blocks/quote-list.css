@@ -11,18 +11,19 @@
 }
 
 .quote-list__item {
+    position: absolute;
+    border-radius: 40px;
+}
+
+.quote-list__item-text {
     font-family: "Play";
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     line-height: 24px;
-}
-
-.quote-list__item-text {
     margin: 0;
 }
 
 .quote-list__group--brown {
-    position: absolute;
     background-color: #676A47;
     border-radius: 40px;
     top: 150px;
@@ -39,7 +40,6 @@
 }
 
 .quote-list__group--blue {
-    position: absolute;
     background-color: #243961;
     border-radius: 40px;
     top: 20px;
@@ -48,7 +48,6 @@
 }
 
 .quote-list__group--violet {
-    position: absolute;
     background-color: #61235F;
     border-radius: 40px;
     top: 110px;
@@ -58,7 +57,6 @@
 
 .quote-list__group--green {
     background-color: #315C51;
-    position: absolute;
     border-radius: 40px;
     top: 40%;
     right: 75px;
@@ -67,7 +65,6 @@
 
 .quote-list__group--red {
     background-color: #6A2844;
-    position: absolute;
     border-radius: 40px;
     bottom: 300px;
     right: 20%;
@@ -86,7 +83,6 @@
 
 .quote-list__group--dark-brown {
     background-color: #62432C;
-    position: absolute;
     border-radius: 40px;
     top: 40%;
     left: 40px;
