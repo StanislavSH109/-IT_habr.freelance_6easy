@@ -36,57 +36,107 @@
 
 
 .quote-list__item--blue {
+    position: absolute;
     background-color: #243961;
     width: 334px;
     bottom: 100%;
     left: -70px;
     transform: translate(0, -150%);
+    z-index: 3;
 }
 
 .quote-list__item--violet {
     background-color: #61235F;
     width: 334px;
+    position: absolute;
+    bottom: 100px;
+    left: 100%;
+    transform: translateX(100%);
 }
 
 .quote-list__item--green {
     background-color: #315C51;
     width: 280px;
-
+    left: 0;
+    transform: translateX(150%);
 }
 
 .quote-list__item--red {
     background-color: #6A2844;
     width: 363px;
+    top: 200px;
 }
 
 .quote-list__item--purple {
     background-color: #432858;
     width: 423px;
+    top: 200px;
+    right: 200px;
 }
 
 .quote-list__item--dark-brown {
     background-color: #62432C;
     width: 303px;
+    right: 100%;
+    transform: translate(-150%, -30%);
 }
 
 .quote-list__group-icon-mascot {
     position: absolute;
     width: 150px;
     height: 150px;
+    left: -100px;
+}
+
+.quote-list__item-mascot {
+    position: absolute;
+    bottom: 420px;
+    left: -120px;
+    transform: translate(0, -150%);
 }
 
 .quote-list__group-icon-mascot-angry {
     position: absolute;
     width: 134px;
     height: 134px;
-    overflow: hidden;
-    z-index: 1;
     left: 0;
+    transform: translate(-190%, 140%);
+    z-index: -1;
 }
 
 .quote-list__group-ponytail {
     position: absolute;
     width: 32px;
     height: 32px;
-    left
+    left: 200%;
+}
+
+.quote-list__group-ponytail-brown {
+    position: absolute;
+    top: 75%;
+    right: -10px;
+    bottom: 0;
+}
+
+.quote-list__group-ponytail-green {
+    position: absolute;
+    top: 75%;
+    left: -17px;
+}
+
+.quote-list__group-ponytail-red {
+    position: absolute;
+    top: 70%;
+    left: -10px;
+}
+
+.quote-list__group-ponytail-violet {
+    position: absolute;
+    top: 70%;
+    right: 95%;
+}
+
+.quote-list__group-ponytail-brown {
+    position: absolute;
+    left: 95%;
 }
