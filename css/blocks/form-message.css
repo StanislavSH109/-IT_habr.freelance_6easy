@@ -33,7 +33,6 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    top:  0;
     right: 30px;
 }
 
@@ -42,5 +41,5 @@
     height: 24px;
     color: #FFFFFF;
     position: absolute;
-    transform: translateY(50%);
+    transform: translateY(-50%);
 }
